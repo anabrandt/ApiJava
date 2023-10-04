@@ -1,20 +1,20 @@
 package com.example;
 
 public class Personagem {
-
+    
     private int id;
     private String name;
     private String status;
     private String species;
+    private String type;
     private String gender;
-    private String origin;
-    private String location;
+    private Object origin;
+    private Object location;
     private String image;
-    private String episode;
+    private Object episode;
     private String url;
     private String created;
 
-    
     public Personagem(){
 
     }
@@ -114,4 +114,8 @@ public class Personagem {
     public void setCreated(String created) {
         this.created = created;
     }
+
+    
+
+
 }
